@@ -131,6 +131,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+
+	}
+	p.justify {
+		margin: 0 0 2em 0;
+		text-align: justify;
+		text-justify: inter-word;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1547,6 +1553,7 @@ input, select, textarea {
 
 				.row > .col-12-medium {
 					width: 100%;
+					text-align: justify;
 				}
 
 				.row > .off-12-medium {
@@ -2971,7 +2978,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		height: 100vh;
+		height: 80vh;
 		overflow: hidden;
 		position: relative;
 	}
