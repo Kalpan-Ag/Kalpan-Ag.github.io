@@ -643,6 +643,9 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		width: 70em;
 	}
+		.container.projects {
+			margin-top: 70px;
+		}
 
 		.container.xsmall {
 			width: 17.5em;

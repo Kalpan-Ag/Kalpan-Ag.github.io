@@ -10,19 +10,37 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/projects.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="page-wrapper">
+
 			<!-- Header -->
 			<header id="header">
+				<h1 id="logo"><a href="index.html">Home</a></h1>
 				<nav id="nav">
 					<ul>
 						<li>
-							<a href="index.html">Home</a>
+							<a href="projects.html">Projects</a>
+							<ul>
+								<li><a href="#">XR Games</a></li>
+								<li><a href="#">3D and 2D Games</a></li>
+								<li><a href="#">Other Games</a></li>
+								<li>
+									<a href="#">Games</a>
+									<ul>
+										<li><a href="left-sidebar.html">Left Sidebar</a></li>
+										<li><a href="right-sidebar.html">Right Sidebar</a></li>
+										<li><a href="no-sidebar.html">No Sidebar</a></li>
+
+										<li><a href="elements.html">Elements</a></li>
+									</ul>
+								</li>
+							</ul>
 						</li>
-						<li><a href="left-sidebar.html">Experience</a></li>
+						<li><a href="left-sidebar.html">Work Experience</a></li>
 						<li><a href="resume.html">Resume</a></li>
 						<li><a href="elements.html">About me</a></li>
 						<li><a href="https://www.linkedin.com/in/kp-ag/" class="icon brands style2 fa-linkedin-in"></a></li>
@@ -31,12 +49,14 @@
 				</nav>
 			</header>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>Games and Projects</h1>
-							</header>
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container projects">
+						<header class="major">
+							<h2>Games and Projects</h2>
+							<p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+						</header>
+
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
@@ -175,41 +195,54 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
+				<footer id="footer">
+					<div class="container">
+					<div class="row">
+						<div class="col-6 col-12-medium">
 							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
+								<h3>Let's work together!</h3>
+								<p>Please reach out to know more about my work or to collaborate.
+									<br>+1 (617)685-9252
+									<br>agrawal.k@northeastern.edu
+								</p>
 								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
 									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
 						</div>
-					</footer>
-			</div>
+						<div class="col-6 col-12-medium">
+							<section>
+								<h3>Contact Me</h3>
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" value="" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<input type="text" name="Subject" id="Subject" value="" placeholder="Subject" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="3"></textarea>
+										</div>
+										<div class="col-12">
+											<input type="submit" value="Send Message" class="primary" />
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+					</div>
+				<ul class="copyright">
+					<li>&copy; 2022 by Kalpan. All rights reserved</li></ul>
+				</div>
+				</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
