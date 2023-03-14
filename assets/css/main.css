@@ -1466,6 +1466,9 @@ table {
       background-color: rgba(230, 235, 237, 0.25); }
   table td {
     padding: 0.75em 0.75em; }
+    table td.right {
+      text-align:right;
+    }
   table th {
     color: #3d4449;
     font-size: 0.9em;
