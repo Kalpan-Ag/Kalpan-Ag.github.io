@@ -321,12 +321,15 @@ hr {
   .row.gtr-50 {
     margin-top: 0;
     margin-left: -0.75em; }
+
     .row.gtr-50 > * {
       padding: 0 0 0 0.75em; }
     .row.gtr-50.gtr-uniform {
       margin-top: -0.75em; }
+
       .row.gtr-50.gtr-uniform > * {
         padding-top: 0.75em; }
+
   .row {
     margin-top: 0;
     margin-left: -1.5em; }
@@ -1236,7 +1239,13 @@ input[type="radio"] + label:before {
     margin: 0 0 2em 0;
     width: 100%; }
     .image.fit img {
+      transition: transform .2s; /* Animation */
       width: 100%; }
+      .image.fit > img:hover {
+        transform: scale(1.5);
+
+
+      }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
