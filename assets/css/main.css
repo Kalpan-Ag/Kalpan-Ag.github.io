@@ -1314,9 +1314,8 @@ ul.actions {
   margin-left: -1em;
   padding-left: 0; }
   ul.actions li {
-    padding: 0 0 0 1em;
+    margin: 0px auto;
     vertical-align: middle;
-    align-items: center;
   }
   ul.actions.special {
     -moz-justify-content: center;
@@ -1769,6 +1768,12 @@ button,
     margin: 0 0 6em 6em;
     position: relative;
     width: calc(33.33333% - 6em); }
+    article.featured {
+      background-color: aliceblue;
+    }
+    article.featured .button{
+      background-color: rgb(192 255 240 / 75%);
+    }
     .posts article:before {
       background: rgba(210, 215, 217, 0.75);
       content: '';
