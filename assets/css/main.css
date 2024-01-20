@@ -1768,9 +1768,9 @@ button,
     margin: 0 0 6em 6em;
     position: relative;
     width: calc(33.33333% - 6em); }
-    article.featured {
-      /*ackground-color: aliceblue;*/
-    }
+    /*article.featured {
+      ackground-color: aliceblue;
+    }*/
     article.featured .button{
       background-color: rgb(192 255 240 / 75%);
     }
