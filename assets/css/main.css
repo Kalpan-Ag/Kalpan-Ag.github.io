@@ -1769,7 +1769,7 @@ button,
     position: relative;
     width: calc(33.33333% - 6em); }
     article.featured {
-      background-color: aliceblue;
+      /*ackground-color: aliceblue;*/
     }
     article.featured .button{
       background-color: rgb(192 255 240 / 75%);
