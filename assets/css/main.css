@@ -1770,10 +1770,10 @@ button,
     width: calc(33.33333% - 6em); }
     /*article.featured {
       ackground-color: aliceblue;
-    }*/
+    }
     article.featured .button{
       background-color: rgb(192 255 240 / 75%);
-    }
+    }*/
     .posts article:before {
       background: rgba(210, 215, 217, 0.75);
       content: '';
